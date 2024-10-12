@@ -12,7 +12,7 @@ from raw.jaffle_shop.orders
 
 select  
     order_id,
-    customer_id
+    customer_id,
     ordered_at,
     store_id,
     subtotal,
