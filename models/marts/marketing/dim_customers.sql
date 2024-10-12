@@ -1,5 +1,5 @@
 with final as (
-    select * from {{ ref('int_dim_customer') }}
+    select * from {{ ref('int_dim_customers') }}
 )
 select
     customer_id,
