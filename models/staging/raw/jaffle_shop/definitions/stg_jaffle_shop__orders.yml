@@ -2,8 +2,10 @@ version: 2
 
 models:
   - name: stg_jaffle_shop__orders
+    description: one unique customer per roew
     columns:
       - name: order_id
+        description: primary key
         tests:
           - unique
           - not_null
